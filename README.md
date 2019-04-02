@@ -6,3 +6,11 @@
 ### Example 3
 ### Example 4
 
+### Structure
+
+├───assets
+│   ├───docs
+│   │   └───examples (example tutorials)
+│   └───images
+└───examples (example code)
+
