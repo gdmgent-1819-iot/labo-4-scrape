@@ -26,3 +26,7 @@ In dit voorbeeld maken we een scraper die de laatste proxies van internet haalt,
 Dit kan bv. handig zijn om telkens automatisch nieuwe proxies te hebben voor een proxy rotation, ook de random User Agents zorgen ervoor dat het moeilijker wordt om ons te er uit te filteren bij bv. web scrapen.
 
 # Scrapy
+
+## [1. Init a Scrapy project](./scrapy/firstproject)
+
+Initialize a scrapy project and generate a spider

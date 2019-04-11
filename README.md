@@ -328,16 +328,16 @@ Use "scrapy <command> -h" to see more info about a command
     $ cd scrapy-projects/
     ```  
 
-2. Start een niew Scrapy project genaamd 'first-project'   
+2. Start een niew Scrapy project genaamd 'firstproject'   
         
     ```
-    /scrapy-projects$ scrapy startproject first-project
+    /scrapy-projects$ scrapy startproject firstproject
     ```
 
 3. Navigeer naar de folder die aangemaakt werd door Scrapy 
 
     ```
-    /scrapy-projects$ cd first-project
+    /scrapy-projects$ cd firstproject
     ```  
 
 4. Check het aangemaakte project om zeker te zijn of Scrapy een nieuw project aanmaakte. Wanneer je het volgende commando runt zou je ook bovenaan de naam van je project moeten zien
@@ -348,7 +348,7 @@ Use "scrapy <command> -h" to see more info about a command
 5. Genereer een nieuwe spider, in dit commando geef je de naam voor de nieuwe spider door en de domeinnaam van de webpagina die je wil scrapen
 
     ```
-    ~/scrapy-projects/first-project$ scrapy genspider first-spider example.com
+    ~/scrapy-projects/firstproject$ scrapy genspider firstspider example.com
     ``` 
 
 6. Lijst de spiders voor dit project op met volgend commando
@@ -360,7 +360,7 @@ Use "scrapy <command> -h" to see more info about a command
 Als alles goed gegaan is zou je de structuur van je project er ongeveer zo uit moeten zien
 ```
 ├───scrapy.cfg
-└───first-project/
+└───firstproject/
     ├───__init__.py
     ├───items.py
     ├───middlewares.py
@@ -368,7 +368,7 @@ Als alles goed gegaan is zou je de structuur van je project er ongeveer zo uit m
     ├───settings.py
     └───spiders/
         ├───__init__.py
-        └───first-spider.py
+        └───firstspider.py
         ...
 ```
 Het scrapy.cfg bestand in de root directory bevat de Scrapy instellingen voor dit project.
