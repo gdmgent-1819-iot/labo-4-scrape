@@ -276,7 +276,7 @@ sudo pip install scrapy
 4. Het is mogelijk om deze error te krijgen
 ![alt text](https://github.com/gdmgent-1819-iot/labo-4-scrape/blob/master/assets/img/error-example.jpg)
 Indien je deze error krijgt kun je dit oplossen door de Visual Studio Build Tools te installeren
-// TODO: screenshot fix
+![alt text](https://github.com/gdmgent-1819-iot/labo-4-scrape/blob/master/assets/img/error-fixed-example.jpg)
 
 ## Scrapy basis
 
